@@ -94,6 +94,12 @@ A shorthand function for making correlation plots from pandas dataframes.
 
 **`marker`** : Specify the shape to use in the plot. It can be any of the **matplotlib** marker shapes (https://matplotlib.org/api/markers_api.html). The default is 's' for square.
 
+**Returns**:
+
+**`figure`**: The modified Subfigure object passed as an input.
+
+**`axes`**: An Axes object created inside the Subfigure object.
+
 ## Examples
 
 You can find a walktrough with examples in this Colab notebook https://colab.research.google.com/drive/1YSvER-U3cwGplSHyXwaCXYhOWfWO53Iy
