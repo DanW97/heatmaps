@@ -39,13 +39,16 @@ Then you can use the following imports:
 ## Reference
 
 ---
-### **`heatmap(x, y, **kwargs)`**
+### **`heatmap(x, y, fig = None, **kwargs)`**
 
 **Parameters**:
 
-**`x`** : A list, np.array or pandas.Series containing the values for the horizontal dimension
+**`x`** : A list, np.array or pandas.Series containing the values for the horizontal dimension.
 
-**`y`** : A list, np.array or pandas.Series containing the values for the vertical dimension
+**`y`** : A list, np.array or pandas.Series containing the values for the vertical dimension.
+
+**`fig`** : A subfigure object, the result of calling plt.subfigures. Default is none.
+
 
 **Optional parameters**:
 
@@ -71,9 +74,15 @@ Then you can use the following imports:
 
 **`ylabel`** : Label for the y-axis. Default is none.
 
+**Returns**:
+
+**`figure`**: The modified Subfigure object passed as an input.
+
+**`axes`**: An Axes object created inside the Subfigure object.
+
 ---
 
-### **`corrplot(data, size_scale=500, marker='s')`**
+### **`corrplot(data,fig = None, size_scale=500, marker='s')`**
 
 A shorthand function for making correlation plots from pandas dataframes.
 
