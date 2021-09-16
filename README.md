@@ -1,6 +1,6 @@
 ## heatmapz - Better heatmaps in Python
 
-This fork alters some of the internals to the the heatmaps package that allow more plotting options.
+This fork alters some of the internals to the the heatmaps package that allow more plotting options. See below for the excellent introduction provided by the original creator of this package.
 
 Python code and Jupyter notebook for an improved heatmap implementation using Matplotlib and Seaborn.
 
@@ -22,13 +22,19 @@ See below for installation details, reference and examples.
 
 ## Installation
 
-To get the pip package run:
+To get the original pip package run:
 
 `pip install heatmapz`
+
+To get this fork run:
+
+`pip install git+https://github.com/DanW97/heatmaps`
 
 Then you can use the following imports:
 
 `from heatmap import heatmap, corrplot`
+
+
 
 ## Reference
 
