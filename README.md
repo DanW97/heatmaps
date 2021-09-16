@@ -1,5 +1,7 @@
 ## heatmapz - Better heatmaps in Python
 
+This fork alters some of the internals to the the heatmaps package that allow more plotting options.
+
 Python code and Jupyter notebook for an improved heatmap implementation using Matplotlib and Seaborn.
 
 Similar to what you can easily get in Tableau using a Size parameter, here you can have square size as parameter depending on the field value.
